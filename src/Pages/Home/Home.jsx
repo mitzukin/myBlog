@@ -11,7 +11,7 @@ const Home = () => {
     <div className="p-1 pt-32 mx-0 md:p-10 lg:mx-10 ">
       <div className="flex flex-col lg:mx-32 md:flex-col xl:flex-row">
         <div className="flex-1 p-5 lg:mt-10 lg:p-10 ">
-          <h1 className="pt-5 font-semibold text-8xl lg:text-8xl font-Roboto text-primary xl:mt-16 lg:mt-10">
+          <h1 className="pt-5 text-5xl font-semibold lg:text-8xl font-Roboto text-primary xl:mt-16 lg:mt-10">
             Welcome To <span className="text-textlight">Music</span> In One
           </h1>
           <p className="p-2 mt-5 font-semibold text-secondary">

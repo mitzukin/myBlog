@@ -6,13 +6,12 @@ const Footer = () => {
     <div>
       <div className="md:mx-56">
        
-        <h1 className="mb-10 text-4xl font-bold text-center font-Roboto">
+        <h1 className="mb-10 text-2xl font-bold text-center md:text-4xl font-Roboto">
 
-        <span className="text-6xl">'' </span>Music is the divine expression of the human soul, composing emotions
-          that words alone cannot capture.<span className="text-6xl">'' </span>
+        <span className="text-3xl md:text-6xl">'' </span>Music is the divine expression of the human soul, composing emotions
+          that words alone cannot capture.<span className="text-3xl md:text-6xl">'' </span>
           <span className="text-xl font-normal">
             - Ludwig van Beethoven
-            
             
           </span>
         </h1>

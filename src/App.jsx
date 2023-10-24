@@ -1,33 +1,29 @@
-import './App.css'
+import "./App.css";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './Pages/Home/Home'
-import Articles from './Pages/Articles/Articles'
-import Discover from './Pages/Discover/Discover'
-import Instruments from './Pages/Instruments/Instruments'
-import Navbar from './components/Navbar/Navbar';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home/Home";
+import Articles from "./Pages/Articles/Articles";
+import Discover from "./Pages/Discover/Discover";
+import Instruments from "./Pages/Instruments/Instruments";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <>
-    <div className=''>
-     
-      <BrowserRouter>
-      <Navbar/>
-        <Routes>
-          
-          <Route index element={<Home />} />
-          <Route path='articles' element={<Articles />} />
-          <Route path='discover' element={<Discover />} />
-          <Route path='instruments' element={<Instruments />} />
-        </Routes>
-      </BrowserRouter>
+      <div className="">
+        <Home/>
+        <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route index={true} element={<Home />} />
+            <Route path="articles" element={<Articles />} />
+            <Route path="discover" element={<Discover />} />
+            <Route path="instruments" element={<Instruments />} />
+          </Routes>
+        </BrowserRouter>
       </div>
     </>
-  )
+  );
 }
-
-
 
 export default App;

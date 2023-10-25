@@ -10,7 +10,7 @@ export default {
           Background: "#3c6e71",
           primary: "#0a0908",
           secondary: "#403d39",
-          paragraph: "#d3d3d3",
+          paragraph: "#495057",
           pwhite:"#f8f9fa",
           swhite:"#e9ecef",
           Card:"#faf9f9",

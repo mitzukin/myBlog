@@ -1,5 +1,3 @@
-import "./App.css";
-import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Articles from "./Pages/Articles/Articles";
@@ -9,20 +7,18 @@ import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <>
-      <div className="">
-        <Home/>
-        <BrowserRouter>
-          <Navbar />
-          <Routes>
-            <Route index={true} element={<Home />} />
-            <Route path="articles" element={<Articles />} />
-            <Route path="discover" element={<Discover />} />
-            <Route path="instruments" element={<Instruments />} />
-          </Routes>
-        </BrowserRouter>
-      </div>
-    </>
+    <BrowserRouter basename="/myBlog">
+    <div className="">
+      <Navbar />
+      <Routes>
+        <Route index={true} element={<Home />} />
+        <Route path="articles" element={<Articles />} />
+        <Route path="discover" element={<Discover />} />
+        <Route path="instruments" element={<Instruments />} />
+      </Routes>
+    </div>
+  </BrowserRouter>
+  
   );
 }
 

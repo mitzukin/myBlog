@@ -3,6 +3,16 @@ import Sheets from "../../Props/Sheets";
 const Sidebar = () => {
   return (
     <div>
+      <h1 className="p-4 text-sm text-justify">
+        <span className="font-semibold">
+          &emsp;&emsp;Music is the universal language
+        </span>{" "}
+        that transcends borders, cultures, and time. It has the power to evoke
+        emotions, tell stories, and connect people on a profound level. Whether
+        it's the rhythm of a favorite song, the harmony of a beautiful melody,
+        or the lyrics that resonate with our souls, music touches our lives in
+        countless ways.
+      </h1>
       <div className="flex flex-col max-h-full gap-2 p-3 bg-white border border-opacity-50 rounded shadow-md md:h-screen md:overflow-y-auto">
         <h1 className="mt-10 mb-3 text-xl font-bold text-center font-Roboto ">
           Music Taste Album
@@ -70,15 +80,7 @@ const Sidebar = () => {
       </div>
 
       <h1 className="p-4 text-sm text-justify">
-        <span className="font-semibold">Music is the universal language</span>{" "}
-        that transcends borders, cultures, and time. It has the power to evoke
-        emotions, tell stories, and connect people on a profound level. Whether
-        it's the rhythm of a favorite song, the harmony of a beautiful melody,
-        or the lyrics that resonate with our souls, music touches our lives in
-        countless ways.
-      </h1>
-      <h1 className="p-4 text-sm text-justify">
-        From{" "}
+        &emsp;&emsp;From{" "}
         <span className="font-semibold">
           classical compositions to modern hits
         </span>

@@ -11,7 +11,7 @@ import Icons from "../../Props/Icons";
 const Home = () => {
   return (
     <div>
-      <div className="p-0 pt-32 mx-0 lg:p-0 lg:mx-0 ">
+      <div className="p-0 pt-32 mx-0 lg:p-0 lg:mx-4 xl:mx-24 ">
         <div className="flex flex-col md::mx-0 xl:mx-32 md:flex-col xl:flex-row">
           <div className="flex-1 p-5 lg:mt-10 lg:p-10 ">
             <h1 className="pt-5 text-6xl font-semibold lg:text-8xl font-Roboto text-primary xl:mt-16 lg:mt-10">
@@ -126,7 +126,7 @@ const Home = () => {
             </h1>
           </div>
 
-          <div class="lg:w-3/10 w-full block lg:block p-4 ">
+          <div class="lg:w-3/10 w-full block lg:block p-2 ">
             <Sidebar />
           </div>
         </div>

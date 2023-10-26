@@ -6,7 +6,7 @@ const Articles = () => {
     "In a new interview with Mike James Rock Show conducted at this weekend's 2000trees festival at Upcote Farm, Withington, near Cheltenham in Gloucestershire, United Kingdom, BULLET FOR MY VALENTINE guitarist Michael \"Padge\" Paget was asked about the band's plans for the coming months.";
   const Thirty =
     "You may know multi-hyphenate Jared Leto as the front man of Thirty Seconds to Mars or from his starring roles in WeCrashed and Dallas Buyers Club. Tuesday night, guests at the Spotify-hosted “An Evening with Jared Leto” got to know him as all that and the host of a Spotify Jam session. ";
-  const Ed = "MANILA, Philippines – The ticket prices and seat plan for Ed Sheeran’s upcoming + – = ÷ x concert in the Philippines have been announced on Tuesday, October 24. "
+  const Ed = "MANILA, Philippines – The ticket prices and seat plan for Ed Sheeran’s upcoming + – = ÷ x concert in the Philippines have been announced on Tuesday, October 24. Sheeran’s Manila stop will be on March 9, 2024, at the SMDC Festival Grounds in Parañaque City, with special guest and singer-songwriter Callum Scott also performing at the show."
   const Belong ="The music video, which arrived on YouTube yesterday (August 24), sees a man reminiscing about his time with his cancer-stricken partner, who tragically passes away. The sombre short culminates with the man spreading her ashes in a river."
   const DecAve ="MANILA -- OPM band December Avenue and actress and recording artist Belle Mariano have dropped the music video of their collaboration  \"Wala Nang Iba\" on Sunday.The nearly 4-minute clip shows a man struggling to move forward after the death of his partner." 
   return (

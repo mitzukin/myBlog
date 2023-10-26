@@ -5,14 +5,16 @@ import "./Home.css";
 import Card from "../../Props/Card";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import Footer from "../../components/Footer/Footer";
+import Icons from "../../Props/Icons";
+
 
 const Home = () => {
   return (
     <div>
       <div className="p-0 pt-32 mx-0 lg:p-0 lg:mx-0 ">
-        <div className="flex flex-col xl:mx-32 md:flex-col xl:flex-row">
+        <div className="flex flex-col md::mx-0 xl:mx-32 md:flex-col xl:flex-row">
           <div className="flex-1 p-5 lg:mt-10 lg:p-10 ">
-            <h1 className="pt-5 text-5xl font-semibold lg:text-8xl font-Roboto text-primary xl:mt-16 lg:mt-10">
+            <h1 className="pt-5 text-6xl font-semibold lg:text-8xl font-Roboto text-primary xl:mt-16 lg:mt-10">
               Welcome To <span className="text-textlight">Music</span> In One
             </h1>
             <p className="p-2 mt-5 font-semibold text-secondary">
@@ -30,16 +32,21 @@ const Home = () => {
             <img src={Cdmusic} alt="" className="" />
           </div>
         </div>
-
+        <div className="">
+          <div className="flex justify-center mb-2">
+        <Icons />
+        </div>
         <h1 className="text-4xl font-bold text-center font-Roboto">
           Shuffle and Share: Card Stories and Secrets
         </h1>
         <p className="px-5 mt-2 mb-10 text-center text-secondary font-Roboto">
           Tune in for in-depth conversations about all things music.
         </p>
-        <div class="flex flex-col gap-2 mx-0 mt-4 md:mx-0 lg:flex-row xl:mx-20">
+        </div>
+        
+        <div class="flex flex-col gap-2 mx-2 mt-4 md:mx-0  lg:flex-row xl:mx-20">
           <div className="p-4 lg:p-0 w-7/10">
-            <div className="grid grid-cols-1 gap-2 mx-4 md:grid-cols-3 xl:mx-20 xl:ml-32 lg:grid-cols-3 xl:grid-cols-3">
+            <div className="grid grid-cols-1 gap-2 mx-1 md:grid-cols-3 xl:mx-20 xl:ml-32 lg:grid-cols-3 xl:grid-cols-3">
               <div className=" border-opacity-30">
                 <Card
                   image="https://static.independent.co.uk/2023/10/19/17/1164d00d9ec18e60fcca6e11a97dd9d8Y29udGVudHNlYXJjaGFwaSwxNjk3ODE1NTg1-2.72237240.jpg?quality=75&width=990&crop=3%3A2%2Csmart&auto=webp"
@@ -123,6 +130,20 @@ const Home = () => {
             <Sidebar />
           </div>
         </div>
+      </div>
+      
+      <div className="lg:mx-56">
+       
+        <h1 className="mb-10 text-2xl font-bold text-center md:text-4xl font-Roboto">
+
+        <span className="text-3xl md:text-6xl">'' </span>Music is the divine expression of the human soul, composing emotions
+          that words alone cannot capture.<span className="text-3xl md:text-6xl">'' </span>
+          <span className="text-xl font-normal">
+            - Ludwig van Beethoven
+            
+          </span>
+        </h1>
+        
       </div>
       <Footer />
     </div>

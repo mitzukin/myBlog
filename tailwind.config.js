@@ -12,9 +12,11 @@ export default {
           secondary: "#403d39",
           paragraph: "#495057",
           pwhite:"#f8f9fa",
-          swhite:"#e9ecef",
+          swhite:"#ced4da",
           Card:"#faf9f9",
-          textlight: "#ff6d00"
+          textlight: "#ff6d00",
+          backArticle: "#00171f"
+
       },
       fontFamily: {
         Roboto: ['Roboto', 'ui-sans-serif', 'system-ui'],

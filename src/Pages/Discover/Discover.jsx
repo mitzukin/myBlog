@@ -8,7 +8,7 @@ import Footer from "../../components/Footer/Footer";
 const Discover = () => {
   const Billie =
     "Billie Eilish Says She'd 'Rather Die' Than Not Be a Mom but 'Dreads' the Realities of Parenting";
-  const Justin = "Justin Bieber never disappoints with his Halloween look.";
+  const Justin = " J. Bieber never disappoints with his Halloween look.";
   const Taylor =
     "First Female Artist to Have 4 Albums on Billboard ";
 

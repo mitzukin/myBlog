@@ -46,7 +46,7 @@ const Home = () => {
         </p>
         </div>
         
-        <div class="flex flex-col gap-2 mx-0 md:mx-0 lg:flex-row bg-pwhite pt-10">
+        <div class="flex flex-col gap-2 mx-0 md:mx-0 lg:flex-row bg-pwhite pt-10 xl:px-6">
           <div className="p-4 lg:p-0 w-7/10">
             <div className="grid grid-cols-1 gap-2 mx-1 md:grid-cols-3 xl:ml-10 lg:grid-cols-3 xl:grid-cols-4">
               <div className=" border-opacity-30">

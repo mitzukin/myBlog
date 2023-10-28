@@ -10,7 +10,7 @@ const Discover = () => {
     "Billie Eilish Says She'd 'Rather Die' Than Not Be a Mom but 'Dreads' the Realities of Parenting";
   const Justin = "Justin Bieber never disappoints with his Halloween look.";
   const Taylor =
-    "Taylor Swift Becomes First Female Artist to Have 4 Albums on Billboard ";
+    "First Female Artist to Have 4 Albums on Billboard ";
 
   return (
     <div>
@@ -19,7 +19,7 @@ const Discover = () => {
         id="Discover"
       >
         <Icons />
-        <div className="flex mt-10">
+        <div className="flex flex-col mt-10 md:flex-row">
           <div className="relative w-full h-96">
             <div className=" bg-primary">
               <img
@@ -43,7 +43,7 @@ const Discover = () => {
             </div>
           </div>
 
-          <div className="flex-row hidden w-1/2 md:block">
+          <div className="flex flex-row w-full -translate-y-24 md:-translate-y-0 md:w-1/2 md:flex-col">
             <div className="h-1/2">
               <div className="relative w-full">
                 <img
@@ -51,7 +51,7 @@ const Discover = () => {
                   alt=""
                   className="object-cover w-full h-full"
                 />
-                <div className="absolute p-2 duration-300 bg-primary bg-opacity-40 hover:bg-opacity-70 -translate-y-28 md:pl-4 xl:pl-8 md:-translate-y-24 hover:bg-primary lg:-translate-y-38 xl:-translate-y-32">
+                <div className="absolute p-2 duration-300 bg-primary bg-opacity-40 hover:bg-opacity-70 md:pl-4 xl:pl-8 md:-translate-y-28 hover:bg-primary lg:-translate-y-38 xl:-translate-y-32">
                   <h1 className="font-bold text-md md:text-sm lg:text-md xl:text-xl text-pwhite left-3 font-Roboto">
                     {Justin}
                   </h1>
@@ -67,14 +67,15 @@ const Discover = () => {
               </div>
             </div>
             <div>
+
               <div className=":-translate-y-0 h-1/2 md:-translate-y-6 lg:-translate-y-0">
                 <div className="relative w-full">
                   <img
                     src="https://people.com/thmb/6Bkio2Cghhalq9iA9G6q9LkjPQs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2):format(webp)/taylor-swift-more-tour-dates-062023-36cc3a3df2ed49a2931d48a83b92ab54.jpg"
                     alt=""
-                    className="object-cover w-screen"
+                    className=" md:w-screen"
                   />
-                  <div className="absolute p-2 duration-300 bg-primary bg-opacity-40 hover:bg-opacity-80 -translate-y-28 md:pl-4 xl:pl-8 md:-translate-y-20 lg:-translate-y-28 xl:-translate-y-32 hover:bg-primary ">
+                  <div className="absolute p-2 duration-300 bg-primary bg-opacity-40 hover:bg-opacity-80 md:pl-4 xl:pl-8 md:-translate-y-28 lg:-translate-y-28 xl:-translate-y-32 hover:bg-primary ">
                     <h1 className="font-bold text-md md:text-sm lg:text-md xl:text-xl text-pwhite left-3 font-Roboto">
                       {Taylor}
                     </h1>

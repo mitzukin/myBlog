@@ -32,7 +32,7 @@ const Articles = () => {
         like the notes in a grand composition, each contributing to the larger
         tapestry of musical appreciation.
       </p>
-      <div className="mt-10 md:mt-10">
+      <div className="mt-10 md:mt-10 xl:mx-56">
         <Content
           title="BULLET FOR MY VALENTINE To Spend 2024 Working On New Studio Album"
           paragraph={Bullettext}
@@ -51,11 +51,11 @@ const Articles = () => {
           image="https://www.rappler.com/tachyon/2023/10/ed-sheeran-concert.png?resize=920%2C697&zoom=1"
           referenceLink="https://www.rappler.com/entertainment/music/ticket-prices-seat-plan-ed-sheeran-concert-manila-march-2024/"
         />
-        <div className="my-20 md:mx-20 lg:mx-56 ">
-          <h1 className="px-2 mb-4 text-4xl font-semibold font-Roboto text-pwhite xl:ml-32">
+        <div className="mx-2 my-20 border-t-8 border-b-8 md:mx-20 lg:mx-56">
+          <h1 className="px-2 mt-10 mb-4 text-4xl font-semibold font-Roboto text-pwhite xl:ml-32">
             Artistry Beyond Boundaries: Defining a Unique Style
           </h1>
-          <p className="px-2 text-justify md:text-left text-pwhite font-Roboto xl:ml-32">
+          <p className="px-2 mb-10 text-justify lg:text-2xl md:text-left text-pwhite font-Roboto xl:ml-32">
             In the ever-evolving world of art and creativity, one artist has
             managed to captivate audiences worldwide and ascend to the pinnacle
             of popularity through their extraordinary talent and unique artistic
@@ -107,7 +107,7 @@ const Articles = () => {
           <h1 className="px-2 mb-4 text-4xl font-semibold font-Roboto text-pwhite xl:ml-32">
             Galleries of Prestige and Coveted Collections
           </h1>
-          <p className="px-2 text-justify md:text-left text-pwhite font-Roboto xl:ml-32">
+          <p className="px-2 text-justify md:text-left lg:text-2xl text-pwhite font-Roboto xl:ml-32">
             Their work can be found in prestigious galleries and exhibitions
             around the world, with collectors vying for the chance to own a
             piece of their genius. Art critics often laud their creations as the

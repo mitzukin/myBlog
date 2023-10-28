@@ -10,23 +10,23 @@ const Icons = () => {
     <div>
         <div className="flex gap-2">
         <div className="p-2 border border-gray-400 rounded-full">
-          <a href="">
-            <FaFacebookF size={24}/>
+          <a href="" >
+            <FaFacebookF size={24}  color='white'/>
           </a>
         </div>
         <div className="p-2 border border-gray-400 rounded-full">
         <a href="">
-            <FaPinterestP size={24}/>
+            <FaPinterestP size={24} color='white'/>
           </a>
         </div>
         <div className="p-2 border border-gray-400 rounded-full">
         <a href="">
-            <FaInstagram size={24}/>
+            <FaInstagram size={24} color='white'/>
           </a>
         </div>
         <div className="p-2 border border-gray-400 rounded-full" >
         <a href="">
-            <GoPaperclip size={24}/>
+            <GoPaperclip size={24} color='white'/>
           </a>
         </div>
       </div>

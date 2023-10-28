@@ -12,7 +12,7 @@ export default {
           secondary: "#403d39",
           paragraph: "#495057",
           pwhite:"#f8f9fa",
-          swhite:"#ced4da",
+          swhite:"#6c757d",
           Card:"#faf9f9",
           textlight: "#ff6d00",
           backArticle: "#00171f"
@@ -24,6 +24,19 @@ export default {
       width: {
         '150': '150rem', 
       },
+      fontSize: {
+        'xxs': '0.5rem', // You can adjust the size as needed
+      },
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        
+        
+
+      },
+
     },
   },
   plugins: [],

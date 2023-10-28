@@ -1,0 +1,17 @@
+#Discover {
+    position: relative;
+}
+
+#Discover::before {
+    content: "";
+    background: url('/src/assets/Background.png');
+    opacity: 1; /* Adjust the opacity as needed */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-size: 100% 100%;
+    background-position: center center;
+}

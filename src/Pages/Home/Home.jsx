@@ -9,11 +9,13 @@ import Icons from "../../Props/Icons";
 
 
 const Home = () => {
+
   return (
     <div>
-      <div className="p-0 pt-32 mx-0 lg:p-0 lg:mx-4 xl:mx-24 ">
-        <div className="flex flex-col md::mx-0 xl:mx-32 md:flex-col xl:flex-row">
-          <div className="flex-1 p-5 lg:mt-10 lg:p-10 ">
+    
+      <div className="p-0 pt-32 mx-0 lg:p-0">
+        <div className="flex flex-col mb-10 md::mx-0 xl:mx-32 md:flex-col xl:flex-row xl:bg-pwhite">
+          <div className="flex-1 p-5 lg:mt-10 lg:p-10 xl:ml-32 ">
             <h1 className="pt-5 text-6xl font-semibold lg:text-8xl font-Roboto text-primary xl:mt-16 lg:mt-10">
               Welcome To <span className="text-textlight">Music</span> In One
             </h1>
@@ -32,21 +34,21 @@ const Home = () => {
             <img src={Cdmusic} alt="" className="" />
           </div>
         </div>
-        <div className="">
+        <div className="p-10 bg-primary">
           <div className="flex justify-center mb-2">
         <Icons />
         </div>
-        <h1 className="text-4xl font-bold text-center font-Roboto">
+        <h1 className="text-4xl font-bold text-center text-pwhite font-Roboto">
           Shuffle and Share: Card Stories and Secrets
         </h1>
-        <p className="px-5 mt-2 mb-10 text-center text-secondary font-Roboto">
+        <p className="px-5 mt-2 mb-10 text-center text-pwhite font-Roboto">
           Tune in for in-depth conversations about all things music.
         </p>
         </div>
         
-        <div class="flex flex-col gap-2 mx-2 mt-4 md:mx-0  lg:flex-row xl:mx-20">
+        <div class="flex flex-col gap-2 mx-0 md:mx-0 lg:flex-row bg-pwhite pt-10">
           <div className="p-4 lg:p-0 w-7/10">
-            <div className="grid grid-cols-1 gap-2 mx-1 md:grid-cols-3 xl:mx-20 xl:ml-32 lg:grid-cols-3 xl:grid-cols-3">
+            <div className="grid grid-cols-1 gap-2 mx-1 md:grid-cols-3 xl:ml-10 lg:grid-cols-3 xl:grid-cols-4">
               <div className=" border-opacity-30">
                 <Card
                   image="https://static.independent.co.uk/2023/10/19/17/1164d00d9ec18e60fcca6e11a97dd9d8Y29udGVudHNlYXJjaGFwaSwxNjk3ODE1NTg1-2.72237240.jpg?quality=75&width=990&crop=3%3A2%2Csmart&auto=webp"
@@ -117,6 +119,31 @@ const Home = () => {
                   title="Calum Scott And Zoe Wees Team Up For New Version Of ‘At Your Worst’"
                   paragraph="The original track marked Calum’s first solo single since the mid-2022 release of his acclaimed sophomore album ‘Bridges.’"
                   referenceLink="https://www.udiscovermusic.com/news/calum-scott-zoe-wees-at-your-worst-new-version/"
+                />
+              </div>
+              <div className="">
+                <Card
+                  image="https://www.nme.com/wp-content/uploads/2021/10/i-belong-to-the-zoo-kapiling-argee-guerrero@2000x1270-696x442.jpg"
+                  title="I Belong To The Zoo on new album ‘Kapiling’: “I put those emotions I can’t verbalise into my music”"
+                  paragraph="Singer-songwriter Argee Guerrero talks new album ‘Kapiling’ and why ‘hugot’ culture endures in the Philippines’"
+                  referenceLink="https://www.nme.com/en_asia/features/music-interviews/i-belong-to-the-zoo-argee-guerrero-kapiling-album-3078148"
+                />
+              </div>
+              <div className="">
+                <Card
+                  image="https://www.billboard.com/wp-content/uploads/2022/01/Camila-Cabello-Shawn-Mendes-2019-billboard-1548.jpg?w=237&h=147&crop=1"
+                  title="Here’s Why Fans Think Camila Cabello’s New Song Is About Making Up With Shawn Mendes"
+                  paragraph="Fans are convinced her the 'June Gloom' clip is a not-so-subtle ode to the 'Stitches' singer."
+                  referenceLink="https://www.billboard.com/music/music-news/camila-cabello-new-song-shawn-mendes-romance-hints-1235311089/"
+                />
+              </div>
+              <div className="">
+                <Card
+                  image="https://s.yimg.com/ny/api/res/1.2/mSFcntzTxTIG3eqRUspFPw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE2MDA7aD04NTA7Y2Y9d2VicA--/https://media.zenfs.com/en/nextshark_articles_509/cb892d1edf5cceef9dea1ab9377d8ffa"
+                  title="AJ Rafael and Simu Liu’s ‘Have Yourself a White Christmas’ is the holiday classic we’re playing on loop
+                  "
+                  paragraph="AJ Rafael and Simu Liu’s “Have Yourself a White Christmas” medley is making a comeback for the Yuletide season — and we’re all for the nostalgia on repeat."
+                  referenceLink="https://news.yahoo.com/aj-rafael-simu-liu-yourself-231316758.html"
                 />
               </div>
             </div>

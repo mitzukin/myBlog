@@ -4,8 +4,8 @@ const Card = (props) => {
   const { title, paragraph, referenceLink, image } = props;
 
   return (
-    <div className="relative flex flex-col h-full p-5 leading-tight tracking-tight border border-none shadow-md bg-pwhite card">
-      <img src={image} alt="" className="w-screen h-40 " />
+    <div className="relative flex flex-col h-full p-5 leading-tight tracking-tight shadow bg-pwhite card">
+      <img src={image} alt="" className="w-full h-full md:h-40" />
       <div>
       
       <h2 className="pl-3 mt-4 font-semibold font-Roboto text-primary">{title}</h2>
@@ -16,7 +16,7 @@ const Card = (props) => {
         href={referenceLink}
         target="_blank"
         rel="noopen noreferrer"
-        className="absolute mt-2 text-xs font-semibold text-red-700 bottom-1 right-3 font-Roboto "
+        className="absolute p-1 px-2 mt-4 text-xs text-white duration-500 bg-red-800 -bottom-2 hover:bg-red-600 hover:text-white right-3 font-Roboto "
       > To Learn More
       </a>
     </div>

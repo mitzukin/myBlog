@@ -3,7 +3,8 @@ import React from 'react'
 const Content = (props) => {
     const {title, paragraph, image,referenceLink} = props;
   return (
-    <div className=''>
+    <div className=''data-aos="fade-up"
+    data-aos-duration="1500">
       <div className='flex flex-col-reverse gap-10 pb-5 mb-2 duration-300 md:hover:text-primary text-swhite md:hover:bg-swhite md:flex-col-reverse lg:flex-row-reverse lg:p-10 lg:mx-0'>
       <div className='lg:mt-12 md:w-full lg:w-3/5'>
         <h1 className='px-3 mt-1 text-2xl font-extrabold font-Roboto md:text-left xl:text-4xl lg:px-0 '>{title}</h1>

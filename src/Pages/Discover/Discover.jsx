@@ -4,23 +4,33 @@ import Icons from "../../Props/Icons";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import Blogs from "../../Props/Blogs";
 import Footer from "../../components/Footer/Footer";
+import { FaArrowUp } from "react-icons/fa";
 
 const Discover = () => {
+  const handleScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   const Billie =
     "Billie Eilish Says She'd 'Rather Die' Than Not Be a Mom but 'Dreads' the Realities of Parenting";
   const Justin = " J. Bieber never disappoints with his Halloween look.";
-  const Taylor =
-    "First Female Artist to Have 4 Albums on Billboard ";
+  const Taylor = "First Female Artist to Have 4 Albums on Billboard ";
 
   return (
     <div>
       <div
-        className="relative py-10 mt-16 md:px-0 lg:px-12 xl:px-40"
+        className="relative py-10 mt-16 md:px-0 lg:px-12 xl:px-60"
         id="Discover"
       >
         <Icons />
         <div className="flex flex-col mt-10 md:flex-row">
-          <div className="relative w-full h-96">
+          <div
+            className="relative w-full h-96"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <div className=" bg-primary">
               <img
                 src="https://people.com/thmb/oMuQ1gtPfwI3fo4JbpXC6PssZEs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x59:751x61):format(webp)/Billie-Eilish-c963b26d535044c697a04b08e0529a1c.jpg"
@@ -33,7 +43,7 @@ const Discover = () => {
                 {Billie}
               </h1>
               <p className="p-1 text-xs md:text-sm lg:text-xs text-swhite font-Roboto">
-                Published on June 23, 2022{" "}
+                Updated on June 23, 2022{" "}
               </p>
               <button className="px-3 py-1 text-xs lg:text-sm lg:py-2 lg:px-5 text-pwhite left-2 bg-textlight">
                 <a href="https://people.com/parents/billie-eilish-says-shed-rather-die-than-not-be-mom/">
@@ -44,7 +54,7 @@ const Discover = () => {
           </div>
 
           <div className="flex flex-row w-full -translate-y-24 md:-translate-y-0 md:w-1/2 md:flex-col">
-            <div className="h-1/2">
+            <div className="h-1/2" data-aos="fade-up" data-aos-duration="1800">
               <div className="relative w-full">
                 <img
                   src="https://people.com/thmb/oMxnXbKEiLtHWm1YvC04A7uMaCw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(717x506:719x508):format(webp)/Justin-Beiber-Halloween-102823-07-47c935857bde4a668a26388f7bfb29ca.jpg"
@@ -56,7 +66,7 @@ const Discover = () => {
                     {Justin}
                   </h1>
                   <p className="p-1 text-xs md:text-xs lg:text-xs text-swhite font-Roboto">
-                    Published on October 28, 2023{" "}
+                    Update on Oct. 28, 2023{" "}
                   </p>
                   <button className="px-3 py-1 text-xs lg:text-xs lg:py-1 lg:px-3 text-pwhite left-2 bg-textlight">
                     <a href="https://people.com/justin-bieber-2023-halloween-costume-casamigos-halloween-party-8379515">
@@ -67,9 +77,12 @@ const Discover = () => {
               </div>
             </div>
             <div>
-
               <div className=":-translate-y-0 h-1/2 md:-translate-y-6 lg:-translate-y-0">
-                <div className="relative w-full">
+                <div
+                  className="relative w-full"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
                   <img
                     src="https://people.com/thmb/6Bkio2Cghhalq9iA9G6q9LkjPQs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2):format(webp)/taylor-swift-more-tour-dates-062023-36cc3a3df2ed49a2931d48a83b92ab54.jpg"
                     alt=""
@@ -99,7 +112,11 @@ const Discover = () => {
           <div className="flex flex-col flex-wrap xl:w-9/12 xl:flex-row">
             <div className="w-full lg:w-full xl:w-1/2 ">
               <div className=":-translate-y-0 h-1/2 md:-translate-y-6 lg:-translate-y-0">
-                <div className="relative w-full">
+                <div
+                  className="relative w-full"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
                   <img
                     src="https://people.com/thmb/5Dw3fg5Vmo4DD6gGRtO0jyyM2wg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2):format(webp)/justin-timberlake-3-3200f018342743e7ac037b1e921d57bb.jpg"
                     alt=""
@@ -148,14 +165,13 @@ const Discover = () => {
               />
             </div>
             <h1 className="p-6 px-2 mt-5 text-lg md:px-32 md:mb-10 text-pwhite xl:text-xl font-Roboto bg-textlight">
-                  Discover the latest trends, artists, and hits in the world of
-                  music. Stay updated on the hottest releases, concerts, and
-                  music industry insights with our entertainment blog. Groove to
-                  the rhythm of the music world.
-                </h1>
+              Discover the latest trends, artists, and hits in the world of
+              music. Stay updated on the hottest releases, concerts, and music
+              industry insights with our entertainment blog. Groove to the
+              rhythm of the music world.
+            </h1>
             <div className="flex flex-col justify-center mt-20 xl:-translate-y-28 bg-pwhite align-center xl:flex-row ">
               <div className="w-full lg:w-full xl:w-1/2">
-
                 <Blogs
                   image="https://people.com/thmb/rtov3IQ6lhaJCimqIIWUpSF29tc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2):format(webp)/selena-gomez-who-says-almost-went-to-another-artist-082423-tout-766d5515cae045a9a34a83457a8eba52.jpg"
                   header="Selena Gomez Says Her Self-Love Hit 'Who Says' Almost Went to Another Artist: 'I Fought for It'"
@@ -204,10 +220,28 @@ const Discover = () => {
             </div>
           </div>
 
-          <div className="w-full xl:w-3/12">
+          <div className="w-full mx-auto xl:w-3/12">
             <Sidebar />
           </div>
         </div>
+        <h1 className="px-2 text-sm text-justify md:px-20 xl:px-56">
+          &emsp;&emsp;
+          Join us as we unravel the harmonious threads of music, explore the
+          evolution of genres, and discover the creative genius of artists who
+          infuse passion, culture, and emotion into their work. With every post,
+          we aim to foster a deeper connection to the world of music and
+          introduce you to artists whose compositions are a testament to the
+          universal language of rhythm. So, whether you're looking for insights
+          into your favorite artist's latest album or seeking to broaden your
+          musical horizons, "Harmonious Rhythms" is your gateway to a melodious
+          world where diverse artists unite through the timeless power of music.
+        </h1>
+        <button
+          className="fixed p-3 text-white bg-orange-500 rounded-full shadow-lg bottom-4 right-4 hover:bg-orange-600"
+          onClick={handleScrollToTop}
+        >
+          <FaArrowUp size={12} />
+        </button>
       </div>
       <Footer />
     </div>
@@ -215,4 +249,3 @@ const Discover = () => {
 };
 
 export default Discover;
-

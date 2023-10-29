@@ -3,7 +3,8 @@ import Sheets from "../../Props/Sheets";
 const Sidebar = () => {
   return (
     <div>
-      <div>
+      <div className="flex justify-center " data-aos="fade-right"
+                data-aos-duration="1500">
         <Sheets
           image="https://i.pinimg.com/564x/64/d8/57/64d8578bc6bb9f9e8e05caf2f2a1da4c.jpg"
           title="Album Grooves: Dive into the Sounds of Music"

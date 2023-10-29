@@ -3,7 +3,8 @@ import React from "react";
 const Blogs = (props) => {
   const { header, paragraph, image, referenceLink, date } = props;
   return (
-    <div className="">
+    <div className="" data-aos="fade-up"
+    data-aos-duration="1500">
     <a href={referenceLink} target="_blank" rel="noopener noreferrer" className="block py-2 duration-500 hover:bg-opacity-10 hover:bg-primary">
       <div className="flex flex-col ml-2 md:flex-row ">
         

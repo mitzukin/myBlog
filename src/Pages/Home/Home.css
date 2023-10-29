@@ -1,0 +1,18 @@
+#Home {
+    position: relative;
+}
+
+#Home::before {
+    content: "";
+    background: url('/src/assets/HomeBack.png');
+    opacity: 0.3; /* Adjust the opacity as needed */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    background-position: center center;
+}
+

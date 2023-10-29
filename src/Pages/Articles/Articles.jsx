@@ -1,8 +1,16 @@
 import React from "react";
 import Content from "../../Props/Content";
 import Footer from "../../components/Footer/Footer";
+import { FaArrowUp } from 'react-icons/fa';
+
 
 const Articles = () => {
+  const handleScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
   const Bullettext =
     "In a new interview with Mike James Rock Show conducted at this weekend's 2000trees festival at Upcote Farm, Withington, near Cheltenham in Gloucestershire, United Kingdom, BULLET FOR MY VALENTINE guitarist Michael \"Padge\" Paget was asked about the band's plans for the coming months.";
   const Thirty =
@@ -21,18 +29,21 @@ const Articles = () => {
   return (
     <div className="mt-16 bg-backArticle ">
       {" "}
-      <h1 className="p-10 mt-10 text-4xl font-extrabold text-center text-pwhite font-Roboto">
+      <h1 className="p-10 mt-10 text-4xl font-extrabold text-center text-pwhite font-Roboto" data-aos="fade-up"
+                data-aos-duration="1500">
         {" "}
         Harmonious Insights:
         <span className="text-textlight"> Music Articles </span>
       </h1>
-      <p className="px-5 mt-5 text-lg leading-5 text-justify text-pwhite lg:mx-32 xl:mx-96 md:leading-6 font-Roboto">
+      <p className="px-5 mt-5 text-lg leading-5 text-justify text-pwhite lg:mx-32 xl:mx-96 md:leading-6 font-Roboto" data-aos="fade-up"
+                data-aos-duration="1500">
         &emsp; &emsp;We explore the diverse facets of music, from the history of
         iconic genres to the latest trends in the industry. Our articles are
         like the notes in a grand composition, each contributing to the larger
         tapestry of musical appreciation.
       </p>
-      <div className="mt-10 md:mt-10 xl:mx-56">
+      <div className="mt-10 md:mt-10 xl:mx-56" >
+
         <Content
           title="BULLET FOR MY VALENTINE To Spend 2024 Working On New Studio Album"
           paragraph={Bullettext}
@@ -52,10 +63,12 @@ const Articles = () => {
           referenceLink="https://www.rappler.com/entertainment/music/ticket-prices-seat-plan-ed-sheeran-concert-manila-march-2024/"
         />
         <div className="mx-2 my-20 border-t-8 border-b-8 md:mx-20 lg:mx-56">
-          <h1 className="px-2 mt-10 mb-4 text-4xl font-semibold font-Roboto text-pwhite xl:ml-32">
+          <h1 className="px-2 mt-10 mb-4 text-4xl font-semibold font-Roboto text-pwhite xl:ml-32" data-aos="fade-up"
+                data-aos-duration="1500">
             Artistry Beyond Boundaries: Defining a Unique Style
           </h1>
-          <p className="px-2 mb-10 text-justify lg:text-2xl md:text-left text-pwhite font-Roboto xl:ml-32">
+          <p className="px-2 mb-10 text-justify lg:text-2xl md:text-left text-pwhite font-Roboto xl:ml-32" data-aos="fade-up"
+                data-aos-duration="1500">
             In the ever-evolving world of art and creativity, one artist has
             managed to captivate audiences worldwide and ascend to the pinnacle
             of popularity through their extraordinary talent and unique artistic
@@ -104,10 +117,12 @@ const Articles = () => {
           referenceLink="https://www.koreatimes.co.kr/www/art/2023/10/398_277452.html"
         />
         <div className="my-20 md:mx-20 lg:mx-56">
-          <h1 className="px-2 mb-4 text-4xl font-semibold font-Roboto text-pwhite xl:ml-32">
+          <h1 className="px-2 mb-4 text-4xl font-semibold font-Roboto text-pwhite xl:ml-32" data-aos="fade-up"
+                data-aos-duration="1500">
             Galleries of Prestige and Coveted Collections
           </h1>
-          <p className="px-2 text-justify md:text-left lg:text-2xl text-pwhite font-Roboto xl:ml-32">
+          <p className="px-2 text-justify md:text-left lg:text-2xl text-pwhite font-Roboto xl:ml-32" data-aos="fade-up"
+                data-aos-duration="1500">
             Their work can be found in prestigious galleries and exhibitions
             around the world, with collectors vying for the chance to own a
             piece of their genius. Art critics often laud their creations as the
@@ -124,6 +139,12 @@ const Articles = () => {
             one of the most celebrated artists of our time
           </p>
         </div>
+        <button
+      className="fixed p-3 text-white bg-orange-500 rounded-full shadow-lg bottom-4 right-4 hover:bg-orange-600"
+      onClick={handleScrollToTop}
+    >
+      <FaArrowUp size={12} />
+    </button>
       </div>
       <Footer />
     </div>

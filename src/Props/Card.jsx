@@ -5,7 +5,7 @@ const Card = (props) => {
 
   return (
     <div className="relative flex flex-col h-full p-5 leading-tight tracking-tight shadow bg-pwhite card">
-      <img src={image} alt="" className="w-full h-full md:h-40" />
+      <img src={image} alt="" className="w-full h-full lg:h-40" />
       <div>
       
       <h2 className="pl-3 mt-4 font-semibold font-Roboto text-primary">{title}</h2>

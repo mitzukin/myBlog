@@ -28,8 +28,7 @@ const Discover = () => {
         <div className="flex flex-col mt-10 md:flex-row">
           <div
             className="relative w-full h-96"
-            data-aos="fade-up"
-            data-aos-duration="1500"
+           
           >
             <div className=" bg-primary">
               <img
@@ -54,7 +53,7 @@ const Discover = () => {
           </div>
 
           <div className="flex flex-row w-full -translate-y-24 md:-translate-y-0 md:w-1/2 md:flex-col">
-            <div className="h-1/2" data-aos="fade-up" data-aos-duration="1800">
+            <div className="h-1/2" >
               <div className="relative w-full">
                 <img
                   src="https://people.com/thmb/oMxnXbKEiLtHWm1YvC04A7uMaCw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(717x506:719x508):format(webp)/Justin-Beiber-Halloween-102823-07-47c935857bde4a668a26388f7bfb29ca.jpg"
@@ -80,8 +79,7 @@ const Discover = () => {
               <div className=":-translate-y-0 h-1/2 md:-translate-y-6 lg:-translate-y-0">
                 <div
                   className="relative w-full"
-                  data-aos="fade-up"
-                  data-aos-duration="2000"
+                  
                 >
                   <img
                     src="https://people.com/thmb/6Bkio2Cghhalq9iA9G6q9LkjPQs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2):format(webp)/taylor-swift-more-tour-dates-062023-36cc3a3df2ed49a2931d48a83b92ab54.jpg"
@@ -114,8 +112,6 @@ const Discover = () => {
               <div className=":-translate-y-0 h-1/2 md:-translate-y-6 lg:-translate-y-0">
                 <div
                   className="relative w-full"
-                  data-aos="fade-up"
-                  data-aos-duration="1500"
                 >
                   <img
                     src="https://people.com/thmb/5Dw3fg5Vmo4DD6gGRtO0jyyM2wg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2):format(webp)/justin-timberlake-3-3200f018342743e7ac037b1e921d57bb.jpg"

@@ -118,7 +118,7 @@ const Instruments = () => {
                   <p className="text-2xl font-bold text-center text-white">
                     Djembe (West Africa)
                   </p>
-                  <p className="px-3 mt-2 text-sm text-center text-white font-Roboto">
+                  <p className="px-3 mt-2 text-xs text-center text-white md:text-sm font-Roboto">
                     A Djembe is a traditional West African drum that originates
                     from the Mande people in the region that includes countries
                     like Mali, Guinea, Ivory Coast, Burkina Faso, Senegal, and
@@ -136,7 +136,7 @@ const Instruments = () => {
                   <p className="text-2xl font-bold text-center text-white">
                     Shamisen (Japan)
                   </p>
-                  <p className="px-3 mt-2 text-sm text-center text-white font-Roboto">
+                  <p className="px-3 mt-2 text-xs text-center text-white md:text-sm font-Roboto">
                     The shamisen is a traditional Japanese musical instrument
                     with a distinctive three-stringed design. It is an integral
                     part of traditional Japanese music and has a history dating
@@ -154,7 +154,7 @@ const Instruments = () => {
                   <p className="text-2xl font-bold text-center text-white">
                     Bagpipes (Various)
                   </p>
-                  <p className="px-3 mt-2 text-sm text-center text-white font-Roboto">
+                  <p className="px-3 mt-2 text-xs text-center text-white md:text-sm font-Roboto">
                     Bagpipes are a class of musical instruments that have a
                     characteristic sound produced by the vibration of reeds and
                     the compression of air through a bag.
@@ -171,7 +171,7 @@ const Instruments = () => {
                   <p className="text-2xl font-bold text-center text-white">
                     Sitar (India)
                   </p>
-                  <p className="px-3 mt-2 text-sm text-center text-white font-Roboto">
+                  <p className="px-3 mt-2 text-xs text-center text-white md:text-sm font-Roboto">
                     The sitar is a traditional plucked string instrument that
                     originates from India. It is one of the most iconic and
                     recognizable musical instruments associated with Indian
@@ -189,7 +189,7 @@ const Instruments = () => {
                   <p className="text-2xl font-bold text-center text-white">
                     Didgeridoo (Australia)
                   </p>
-                  <p className="px-3 mt-2 text-sm text-center text-white font-Roboto">
+                  <p className="px-3 mt-2 text-xs text-center text-white md:text-sm font-Roboto">
                     The didgeridoo is a traditional musical instrument that
                     originates from Indigenous Australian cultures, particularly
                     those of Aboriginal people in the northern regions of
@@ -207,7 +207,7 @@ const Instruments = () => {
                   <p className="text-2xl font-bold text-center text-white ">
                     Kora (West Africa)
                   </p>
-                  <p className="px-3 mt-2 text-sm text-center text-white font-Roboto">
+                  <p className="px-3 mt-2 text-xs text-center text-white md:text-sm font-Roboto">
                     The kora is a traditional stringed instrument originating
                     from West Africa, particularly associated with the Mandinka
                     people of the Gambia, Senegal, Guinea, Mali, and other

@@ -27,8 +27,8 @@ const Digital = () => {
             <p className="text-2xl font-bold text-center text-white">
               Digital Keyboards and Synthesizers
             </p>
-            <p className="px-3 mt-2 text-sm text-center text-white font-Roboto">
-              Digital keyboards and synthesizers use digital signal processing
+            <p className="px-3 mt-2 text-xs text-center text-white md:text-sm font-Roboto">
+              It uses digital signal processing
               to generate and modify sounds.{" "}
             </p>
           </div>
@@ -43,7 +43,7 @@ const Digital = () => {
             <p className="text-2xl font-bold text-center text-white">
               Electronic Drum Kits
             </p>
-            <p className="px-3 mt-2 text-sm text-center text-white font-Roboto">
+            <p className="px-3 mt-2 text-xs text-center text-white md:text-sm font-Roboto">
               Digital drum kits replace traditional acoustic drum sets with
               electronic pads and triggers.
             </p>
@@ -59,7 +59,7 @@ const Digital = () => {
             <p className="text-2xl font-bold text-center text-white">
               Digital Audio Workstations (DAWs)
             </p>
-            <p className="px-3 mt-2 text-sm text-center text-white font-Roboto">
+            <p className="px-3 mt-2 text-xs text-center text-white md:text-sm font-Roboto">
               DAWs are software applications used for music production,
               recording, and mixing.
             </p>
@@ -75,7 +75,7 @@ const Digital = () => {
             <p className="text-2xl font-bold text-center text-white">
               Virtual Instruments
             </p>
-            <p className="px-3 mt-2 text-sm text-center text-white font-Roboto">
+            <p className="px-3 mt-2 text-xs text-center text-white md:text-sm font-Roboto">
               Virtual instruments are software-based instruments that can be
               played using MIDI controllers, such as MIDI keyboards or
               electronic drum pads.
